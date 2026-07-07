@@ -3,7 +3,7 @@
 SISTEMA INTEGRAL DE GESTIÓN DE CLIENTES, SERVICIOS Y RESERVAS
 Empresa: Software FJ
 ================================================================================
-Desarrollado por: Carlos [Apellido] - Estudiante UNAD
+Desarrollado por: Carlos Morato - Estudiante UNAD
 Curso            : Programación - Código 213023
 Fase             : 4 - Componente Práctico / Prácticas Simuladas
 Ejercicio        : 1 - Sistema Integral de Gestión
@@ -33,6 +33,7 @@ from datetime import datetime
 # ================================================================================
 # SECCIÓN 1: EXCEPCIONES PERSONALIZADAS
 # Jerarquía propia del dominio Software FJ para manejo granular de errores.
+# 20260607
 # ================================================================================
 
 class SistemaFJError(Exception):
@@ -148,6 +149,7 @@ class EstadoInvalidoError(ReservaError):
 # SECCIÓN 2: LOGGER DEL SISTEMA
 # Registra todos los eventos y errores en un archivo de texto plano.
 # Usa try/except/finally para garantizar que el archivo siempre se cierre.
+# 20260706
 # ================================================================================
 
 class LoggerSistema:
