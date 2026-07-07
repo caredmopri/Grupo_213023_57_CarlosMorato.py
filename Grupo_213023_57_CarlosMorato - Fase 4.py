@@ -303,6 +303,7 @@ class EntidadBase(ABC):
 # ================================================================================
 # SECCIÓN 4: CLASE CLIENTE
 # Implementa ENCAPSULAMIENTO con atributos privados y propiedades validadas.
+# 20260706
 # ================================================================================
 
 class Cliente(EntidadBase):
@@ -448,6 +449,7 @@ class Cliente(EntidadBase):
 # ================================================================================
 # SECCIÓN 5: CLASE ABSTRACTA SERVICIO Y SUBCLASES
 # Implementa HERENCIA y POLIMORFISMO en la jerarquía de servicios.
+# 20260706
 # ================================================================================
 
 class Servicio(EntidadBase, ABC):
